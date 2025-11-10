@@ -1,0 +1,42 @@
+{
+  "common": {
+    "welcome": "Bienvenido a MainEvents",
+    "login": "Iniciar Sesión",
+    "register": "Registrarse",
+    "logout": "Cerrar Sesión",
+    "profile": "Perfil",
+    "events": "Eventos",
+    "tickets": "Entradas",
+    "search": "Buscar...",
+    "language": "Idioma",
+    "spanish": "Español",
+    "english": "Inglés"
+  },
+  "payment": {
+    "title": "Métodos de Pago",
+    "creditCard": "Tarjeta de Crédito/Débito",
+    "paypal": "PayPal",
+    "bankTransfer": "Transferencia Bancaria",
+    "cardNumber": "Número de Tarjeta",
+    "expiryDate": "Fecha de Vencimiento",
+    "cvv": "CVV",
+    "nameOnCard": "Nombre en la Tarjeta",
+    "payNow": "Pagar Ahora",
+    "securePayment": "Pago Seguro",
+    "securePaymentDesc": "Tus datos están protegidos con encriptación SSL"
+  },
+  "footer": {
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "terms": "Términos y Condiciones",
+    "privacy": "Política de Privacidad",
+    "help": "Ayuda",
+    "rights": "Todos los derechos reservados"
+  },
+  "errors": {
+    "required": "Este campo es obligatorio",
+    "email": "Por favor ingresa un correo electrónico válido",
+    "minLength": "Debe tener al menos {{count}} caracteres",
+    "paymentError": "Error al procesar el pago"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "common": {
+    "welcome": "Welcome to MainEvents",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "profile": "Profile",
+    "events": "Events",
+    "tickets": "Tickets",
+    "search": "Search...",
+    "language": "Language",
+    "spanish": "Spanish",
+    "english": "English"
+  },
+  "payment": {
+    "title": "Payment Methods",
+    "creditCard": "Credit/Debit Card",
+    "paypal": "PayPal",
+    "bankTransfer": "Bank Transfer",
+    "cardNumber": "Card Number",
+    "expiryDate": "Expiry Date",
+    "cvv": "CVV",
+    "nameOnCard": "Name on Card",
+    "payNow": "Pay Now",
+    "securePayment": "Secure Payment",
+    "securePaymentDesc": "Your data is protected with SSL encryption"
+  },
+  "footer": {
+    "about": "About",
+    "contact": "Contact",
+    "terms": "Terms and Conditions",
+    "privacy": "Privacy Policy",
+    "help": "Help",
+    "rights": "All rights reserved"
+  },
+  "errors": {
+    "required": "This field is required",
+    "email": "Please enter a valid email",
+    "minLength": "Must be at least {{count}} characters",
+    "paymentError": "Error processing payment"
+  }
+}
