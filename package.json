@@ -1,8 +1,8 @@
 {
-  "name": "mainevents@1.0.0",
+  "name": "mainevents",
   "version": "1.0.0",
   "description": "Plataforma de eventos con Node.js, Express y React",
-  "main": "src/menu.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "node server.js",
