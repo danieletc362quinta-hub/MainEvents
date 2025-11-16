@@ -1,109 +1,118 @@
-# 🎉 MainEvents - Plataforma de Gestión de Eventos
+# MainEvents
 
-Una aplicación web completa para la gestión de eventos, desarrollada con Node.js, Express, React y MongoDB.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
-## 🌟 Novedades (Octubre 2025)
+Una plataforma integral para la gestión de eventos que permite a los usuarios crear, gestionar y asistir a eventos de manera sencilla y eficiente.
 
-- 🌍 **Soporte Multilingüe Completo** (Español/Inglés)
-- 💳 **Múltiples Métodos de Pago** (Tarjeta, PayPal, Transferencia Bancaria)
-- 📱 **Diseño 100% Responsive**
-- 📚 **Guía de Usuario Detallada**
-- 🔒 **Procesamiento de Pagos Seguro**
+## 📋 Tabla de Contenidos
+- [Características](#-características)
+- [Tecnologías](#-tecnologías)
+- [Instalación](#-instalación)
+- [Uso](#-uso)
+- [Contribución](#-contribución)
+- [Licencia](#-licencia)
 
-## 🚀 Características Principales
+## ✨ Características
 
-- ✅ **Registro y Autenticación de Usuarios**
-- ✅ **Creación y Gestión de Eventos**
-- ✅ **Subida de Imágenes** (archivo local y URL)
-- ✅ **Sistema de Perfiles de Usuario**
-- ✅ **Navegación Multilingüe** (Español/Inglés)
-- ✅ **Dashboard de Administración**
-- ✅ **Sistema de Pagos** (Mercado Pago)
-- ✅ **Notificaciones por Email**
-- ✅ **API RESTful Completa**
+- **Autenticación de Usuarios**
+  - Registro y login seguro
+  - Recuperación de contraseña
+  - Perfiles personalizables
 
-## 🛠️ Tecnologías Utilizadas
+- **Gestión de Eventos**
+  - Creación y edición de eventos
+  - Búsqueda y filtrado avanzado
+  - Categorización de eventos
+
+- **Sistema de Pagos**
+  - Múltiples métodos de pago
+  - Procesamiento seguro de transacciones
+  - Historial de pagos
+
+- **Multilingüe**
+  - Soporte para español e inglés
+  - Interfaz traducible
+
+## 🛠️ Tecnologías
 
 ### Backend
-- **Node.js** - Runtime de JavaScript
-- **Express.js** - Framework web
-- **MongoDB** - Base de datos NoSQL
-- **Mongoose** - ODM para MongoDB
-- **JWT** - Autenticación con tokens
-- **Bcrypt** - Encriptación de contraseñas
-- **Multer** - Subida de archivos
-- **Nodemailer** - Envío de emails
-- **Zod** - Validación de esquemas
+- Node.js
+- Express
+- MongoDB con Mongoose
+- JWT para autenticación
+- Nodemailer para notificaciones
 
 ### Frontend
-- **React** - Biblioteca de UI
-- **Vite** - Herramienta de construcción
-- **Material-UI** - Componentes de UI
-- **React Router** - Navegación
-- **Axios** - Cliente HTTP
-- **React Query** - Gestión de estado
-- **i18next** - Internacionalización
-- **React Hook Form** - Formularios
-- **Responsive Design** - Adaptable a móviles
+- React
+- Vite
+- Material-UI
+- i18next para internacionalización
+- React Hook Form
 
-## 📚 Guía Rápida de Uso
+## 🚀 Instalación
 
-Consulta la [Guía del Usuario](GUIA_USUARIO.md) para obtener instrucciones detalladas sobre cómo usar la plataforma.
+1. **Clonar el repositorio**
+   ```bash
+   git clone https://github.com/danieletc362quinta-hub/MainEvents.git
+   cd MainEvents
+   ```
 
-## 💳 Métodos de Pago Soportados
+2. **Instalar dependencias del backend**
+   ```bash
+   npm install
+   ```
 
-- **Tarjetas de Crédito/Débito** (Visa, Mastercard, American Express)
-- **PayPal** - Pago rápido y seguro
-- **Transferencia Bancaria** - Para pagos directos
+3. **Instalar dependencias del frontend**
+   ```bash
+   cd frontend
+   npm install
+   cd ..
+   ```
 
-## 🌍 Internacionalización
+4. **Configurar variables de entorno**
+   ```bash
+   cp .env.example .env
+   ```
+   Editar el archivo `.env` con tus configuraciones.
 
-La aplicación está disponible en:
-- Español (predeterminado)
-- Inglés
+## 💻 Uso
 
-Para cambiar el idioma, utiliza el selector en la barra de navegación.
+1. **Iniciar el servidor de desarrollo**
+   ```bash
+   npm run dev
+   ```
 
-## 📦 Instalación y Configuración
+2. **Iniciar el frontend** (en otra terminal)
+   ```bash
+   cd frontend
+   npm run dev
+   ```
 
-### Prerrequisitos
+3. **Acceder a la aplicación**
+   - Frontend: http://localhost:3000
+   - Backend API: http://localhost:3001
 
-Antes de comenzar, asegúrate de tener instalado:
+## 🤝 Contribución
 
-1. **Node.js** (versión 16 o superior)
-   - Descargar desde: [nodejs.org](https://nodejs.org)
-   - Instalar la versión **LTS** (recomendada)
+¡Las contribuciones son bienvenidas! Por favor, lee nuestra [guía de contribución](CONTRIBUTING.md) para más detalles.
 
-2. **MongoDB** (versión 4.4 o superior)
-   - Descargar desde: [mongodb.com](https://www.mongodb.com/try/download/community)
-   - Instalar con configuración por defecto
+1. Haz un Fork del proyecto
+2. Crea una rama para tu característica (`git checkout -b feature/AmazingFeature`)
+3. Haz commit de tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Haz push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
 
-3. **Git** (opcional, para clonar el repositorio)
-   - Descargar desde: [git-scm.com](https://git-scm.com)
+## 📄 Licencia
 
-### 🚀 Pasos de Instalación
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más información.
 
-#### 1. Clonar el Repositorio
-```bash
-git clone https://github.com/tu-usuario/mainevents.git
-cd mainevents
-```
+---
 
-#### 2. Instalar Dependencias del Backend
-```bash
-npm install
-```
-
-#### 3. Instalar Dependencias del Frontend
-```bash
-cd frontend
-npm install
-cd ..
-```
+Hecho con ❤️ por el equipo de MainEvents
 
 #### 4. Configurar Variables de Entorno
-```bash
-# Copiar el archivo de ejemplo
+Crea un archivo `.env` en la raíz del proyecto con las siguientes variables:
 copy env.example .env
 ```
 
