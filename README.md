@@ -339,4 +339,5 @@ Si tienes problemas o preguntas:
 2. Busca en los [Issues](https://github.com/tu-usuario/mainevents/issues)
 3. Crea un nuevo issue si no encuentras solución
 
-**¡Gracias por usar MainEvents! 🎉**
+**¡Gracias por usar MainEvents! 🎉**#   M a i n E v e n t s  
+ 
