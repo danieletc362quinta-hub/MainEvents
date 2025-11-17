@@ -19,26 +19,26 @@ MainEvents surge para resolver los desafíos en la gestión de eventos escolares
 
 Lista de Requerimientos
 
-Sistema de autenticación de usuarios .......................... ✅ Completado
-Perfiles de usuario con diferentes roles .................... ✅ Completado
-Gestión básica de eventos .................................. ✅ Completado
-Calendario interactivo ..................................... ✅ Completado
-Notificaciones básicas ..................................... 🔄 En Progreso
-Diseño web responsivo ...................................... ✅ Completado
-Panel de administración .................................... ✅ Completado
-Galería multimedia ......................................... ✅ Completado
-Búsqueda y filtrado de eventos ............................. ✅ Completado
-Exportación de datos básica ................................ ✅ Completado
-Sistema de pagos en línea .................................. ❌ Pendiente
-Integración con calendarios externos ....................... ❌ Pendiente
-Aplicación móvil nativa ................................... ❌ Pendiente
-Sistema de encuestas ...................................... ❌ Pendiente
-Chat en tiempo real ....................................... ❌ Pendiente
-Sistema de valoración de eventos .......................... ❌ Pendiente
-Compartir en redes sociales ............................... ❌ Pendiente
-Check-in con códigos QR ................................... ❌ Pendiente
-Reportes analíticos ....................................... ❌ Pendiente
-Generación de certificados ................................ ❌ Pendiente
-Notificaciones push ....................................... 🔄 En Progreso
-Sistema de recordatorios por email ........................ 🔄 En Progreso
-Mejoras de accesibilidad .................................. 🔄 En Progreso
+Sistema de autenticación de usuarios ✅ Completado
+Perfiles de usuario con diferentes roles ✅ Completado
+Gestión básica de eventos  ✅ Completado
+Calendario interactivo  ✅ Completado
+Notificaciones básicas  🔄 En Progreso
+Diseño web responsivo  ✅ Completado
+Panel de administración  ✅ Completado
+Galería multimedia  ✅ Completado
+Búsqueda y filtrado de eventos  ✅ Completado
+Exportación de datos básica  ✅ Completado
+Sistema de pagos en línea  ❌ Pendiente
+Integración con calendarios externos  ❌ Pendiente
+Aplicación móvil nativa  ❌ Pendiente
+Sistema de encuestas  ❌ Pendiente
+Chat en tiempo real  ❌ Pendiente
+Sistema de valoración de eventos  ❌ Pendiente
+Compartir en redes sociales  ❌ Pendiente
+Check-in con códigos QR  ❌ Pendiente
+Reportes analíticos  ❌ Pendiente
+Generación de certificados  ❌ Pendiente
+Notificaciones push  🔄 En Progreso
+Sistema de recordatorios por email  🔄 En Progreso
+Mejoras de accesibilidad  🔄 En Progreso
