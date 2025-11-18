@@ -1,5 +1,5 @@
-Pagina Web de la Escuela
-Jackson Calderon
+Pagina Web de Eventos
+José Daniel González Marante, Ignacio Nacho Couce, Matias Sebastian Barqui y Tomas Nuñez
 
 ET 36 DE 15 "Alte Guillermo Brown"
 
